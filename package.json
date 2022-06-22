@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@iconify-json/carbon": "^1.1.5",
+    "@kevinmarrec/nuxt-pwa": "^0.3.0",
+    "@pinia/nuxt": "^0.1.9",
+    "@types/pdf-parse": "^1.1.1",
+    "@unocss/nuxt": "^0.38.2",
+    "@vueuse/core": "^8.6.0",
+    "@vueuse/nuxt": "^8.6.0",
+    "nuxt": "3.0.0-rc.3",
+    "pinia": "^2.0.14",
+    "pinia-plugin-persistedstate": "^1.6.1",
+    "unplugin-icons": "^0.14.3",
+    "vitest": "^0.15.1",
+    "web-file-polyfill": "^1.0.4"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^2.14.305"
+  }
+}
